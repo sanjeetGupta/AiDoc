@@ -1,0 +1,48 @@
+
+
+<div class="content" role="main">
+  <div class="card highlight-card card-small">
+    <span>Ask the AI Doctor a detailed medical question</span>
+  </div>
+ <a class= "button" (click)="randomExample()">Insert Example</a>
+  <br/>
+  <label for="gender">Select Gender:</label>
+  <select  id="gender" [(ngModel)]="gender">
+    <option value="M">M</option>
+    <option value="F">F</option>
+  </select>
+  <label for="age">Enter Age:</label>
+  <input style="width: 50px; height: 40px" type="text" id="age" [(ngModel)]="age">
+  <div class="form__group field">
+    <textarea rows="4" cols="50" maxlength="400" placeholder="Ask your question here" class="form__field" name="question" id='question' [(ngModel)]="question" ></textarea>
+  </div>
+
+  <button class="button" (click)="sendRequest()">Ask</button>
+  <div>{{message}}</div>
+
+  <div class="form__groupb fieldb" *ngIf="isAnswer==1">
+    <div>Your issue is related to <a class="output_highlight"> {{answer['cat']}}</a></div>
+    <br/>
+    <div>Your Symptoms: <a class="output_highlight"> {{answer['sym']}}</a></div>
+    <br/>
+    <div>You should see a <a class="output_highlight"> {{answer['spec']}}</a></div>
+    <br/>
+    <div>Advice from AI:</div>
+    <div class="highlight_advice">"{{answer['answer']}}"</div>
+    <br/>
+    <div>Not satisfied by the result <button class="button" (click)="sendRequest()">Ask Again</button></div>
+    <br/>
+    <br/>
+    <div>Disclaimer: This work is only meant for research. This is not a real doctor's advice. Please, visit a real doctor.</div>
+  </div>
+  <br/>
+  <br/>
+  <div class="container"><a  href="https://github.com/sanjeetGupta/AiDoc" > Checkout the github repository here </a></div>
+</div>
+
+
+
+
+
+
+

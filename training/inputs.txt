@@ -1,0 +1,6 @@
+ask_doc: g_t M a_t 23 q_t I have had pain in ear with discharge for last 3 weeks and ear drum has a perforration.
+ask_doc: g_t M a_t 24 q_t My periods are delayed, what to do?
+ask_doc: g_t F a_t 24 q_t My periods are delayed, what to do?
+ask_doc: g_t M a_t 50 q_t I have am losing Weight, and have hypertension. please suggest ?
+ask_doc: g_t M a_t 23 q_t I have stiffness in my neck and swollen lymphnodes. I also have rashes on my head. can you suggest medicines ?
+ask_doc: g_t M a_t 23 q_t My son is not able to speak properly. He stammers a lot. please suggest ?

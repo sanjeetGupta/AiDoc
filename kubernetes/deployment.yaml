@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: aidoc-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: aidoc-deployment
+    spec:
+      containers:
+      - name: aidoc-deployment
+        image: sanjeetgupta/ai-doc:v3
+        ports:
+        - containerPort: 8501
+    imagePullSecrets:
+      - name: regcred
+
