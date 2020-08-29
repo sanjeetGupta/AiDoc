@@ -86,3 +86,10 @@ code in kubernetes/
 
 * deployment.yaml to define the deployment details( like number of pod , docker image name , docker hub credentials). 
 * service.yaml to define a LoadBalancer service for the deployment.
+
+## FrontEnd
+code in front-end/
+
+* Angular app. 
+
+
