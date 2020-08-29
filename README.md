@@ -51,7 +51,7 @@ cat_t bone-muscle-problems spc_t Orthopedist sym_t Spinal cord bone increase ans
 * ans_t : Doctor's Reply
 
 
-## Model Training and Exporting. 
+## Model Training and Exporting
 code in training/
 
 <i><b>fine_tune.py</b></i>
@@ -65,7 +65,7 @@ code in training/
 * The exported model performs inference(text generation) with a temperature of 1.  
 
 
-## Containerisation
+## Containerization
 
 ### Dockerization
 code in dockerization/
