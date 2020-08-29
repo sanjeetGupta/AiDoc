@@ -69,13 +69,14 @@ code in training/
 
 ### Dockerization
 code in dockerization/
-* app.py to run a flask service
+* app.py to run a Inference flask service.
 * Dockerfile to define the image.
 * build_run_push.sh consists commands to build, push and run the docker image
 
 ### TF serving
 code in tf-serving/
-* create_docker_tf_serving.sh to create a docker image with tf-serving base image
+
+* create_docker_tf_serving.sh to create a docker image with tf-serving base image.
 
 I tried both of the above options and decided to use the simple container instead of tf-serving because of performance issues.
 
