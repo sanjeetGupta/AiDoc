@@ -1,7 +1,7 @@
 # AI DOC
 Text-to-Text transformer to answer health questions. 
 The same model also classifies the question, extracts the symptoms and suggests the speciality of the doctor.
-Try it at <a href='sanjeetgupta.com/#/aidoc'>here</a>
+Try it at <a href='http://www.sanjeetgupta.com/#/aidoc'>here</a>
 
 * Data used has been scraped from multiple health websites on the internet.
 * A total of about 7 lakh questions and answers have been scraped.
